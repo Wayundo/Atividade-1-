@@ -1,27 +1,30 @@
-Algoritmo "Quest„o 6"
+Algoritmo "Quest√£o 6"
 
-  //Aluno: Alexandre Santana Nunes
+//Aluno: Alexandre Santana Nunes
 
 Var
-notaUm : real
-notaDois : real
-media : real
+   notaUm : real
+   notaDois : real
+   media : real
 
 Inicio
-escreva("Digite sua primeira nota: ")
-leia(notaUm)
+   escreva("Digite sua primeira nota: ")
+   leia(notaUm)
 
-escreva("Digite sua segunda nota: ")
-leia(notaDois)
+   escreva("Digite sua segunda nota: ")
+   leia(notaDois)
 
-media <- (notaUm+notaDois)/2
+   media <- (notaUm+notaDois)/2
 
-escreval("Sua mÈdia È:", media)
+   escreval("Sua m√©dia √©:", media)
 
-se(Media >= 6) ent„o
-escreval("ParabÈns vocÍ foi aprovado!")
-sen„o
-escreval("Sinto muito, vocÍ foi reprovado.")
-fimse
+   se(Media >= 6) ent√£o
+      escreval("Parab√©ns voc√™ foi aprovado!")
+   fimse
+   se(Media >= 4) ent√£o
+      Escreva("Aluno em recupera√ß√£o.")
+   Senao
+      Escreva("Aluno reprovado.")
+  fimse
 
 Fimalgoritmo
